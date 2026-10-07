@@ -1,0 +1,13 @@
+# FGLGuard 运行依赖
+#
+# 说明: 本项目只依赖 torch / numpy 做核心训练，matplotlib 仅用于出图。
+# torch 请按自己的 CUDA/CPU 环境安装 (见 https://pytorch.org)。
+#
+#   pip install -r requirements.txt
+#
+torch>=2.0
+numpy>=1.24
+matplotlib>=3.7        # 可选: 只影响结果图, 缺失时脚本会自动跳过绘图
+
+# --- 可选 ---
+# pypdf>=4.0           # 仅用于把论文 PDF 抽取成文本 (scripts/pdf_to_text.py)

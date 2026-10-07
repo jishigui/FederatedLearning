@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 实验产物
+results/*.png
+results/*.json
+results/*.log
+results/*.txt
+
+# 论文全文抽取结果 (可由 scripts/pdf_to_text.py 重新生成)
+paper.txt
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
