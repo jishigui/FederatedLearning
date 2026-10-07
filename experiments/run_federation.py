@@ -1,5 +1,7 @@
 """实验一: 联邦检测 vs 集中式 / 本地 / off-the-shelf (论文 Table 1、Fig.3)。
 
+阅读顺序: 第 14 步 / 共 18 步 —— 见 READING_ORDER.md
+
 运行::
 
     python -m experiments.run_federation                # 默认 3 个种子

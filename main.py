@@ -1,5 +1,7 @@
 """FGLGuard —— 一键最小可运行示例。
 
+阅读顺序: 第 12 步 / 共 18 步 (把前面所有模块串起来) —— 见 READING_ORDER.md
+
 用法::
 
     python main.py            # 小型配置，约 1-2 分钟

@@ -128,6 +128,7 @@ $$\hat s_j=\max\Big(s_j,\ \max_{i:A_{ij}=1}s_i\Big),\qquad
 ```
 FederatedLearning/
 ├── README.md
+├── READING_ORDER.md              # ★ 按依赖排好的 18 步阅读路线 + 符号对照表
 ├── requirements.txt
 ├── main.py                       # 一键最小可运行示例 (论文 Fig.2 全流程)
 ├── fglguard/                     # 算法库
@@ -154,6 +155,10 @@ FederatedLearning/
 ---
 
 ## 4. 快速开始
+
+> **第一次看这个项目？** 不要按目录顺序读代码。先看 **`READING_ORDER.md`**
+> —— 它按依赖关系排出了 18 步阅读路线，每步说明"看哪个函数、看完要能回答什么"，
+> 并附 **论文符号 ↔ 代码变量对照表**（$\theta$ 在代码里叫什么、$\alpha_k$ 在哪一行等）。
 
 ```bash
 # 0) 环境 (本项目已在 python 3.14 + torch 2.14 CPU 上验证)

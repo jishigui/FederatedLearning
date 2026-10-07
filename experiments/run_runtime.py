@@ -1,5 +1,7 @@
 """实验二: 运行时部署 —— 攻击成功率 vs 效用 (论文 Fig.4、Sec. 5.3 运行时消融)。
 
+阅读顺序: 第 15 步 / 共 18 步 —— 见 READING_ORDER.md
+
 运行::
 
     python -m experiments.run_runtime

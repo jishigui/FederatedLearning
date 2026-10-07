@@ -1,5 +1,7 @@
 """Episode -> 属性图 :math:`G = (X, A, E)` 的构建 (论文 Sec. 3)。
 
+阅读顺序: 第 4 步 / 共 18 步 —— 见 READING_ORDER.md
+
 论文原文:
 
     it derives node features by aggregating incoming edges, leaving nothing for agents

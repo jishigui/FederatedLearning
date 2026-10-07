@@ -1,5 +1,7 @@
 """评估指标。
 
+阅读顺序: 第 10 步 / 共 18 步 —— 见 READING_ORDER.md
+
 对应论文 Metrics 段落: Episode AUROC (organic 语料在 final-answer agent 上读取;
 planted attacker 语料逐节点读取)、ASR、utility、capability。
 """

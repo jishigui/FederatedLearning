@@ -1,5 +1,7 @@
 """多智能体系统 (MAS) episode 仿真器 + 免费 judge 标签。
 
+阅读顺序: 第 3 步 / 共 18 步 —— 见 READING_ORDER.md
+
 论文 (Sec. 3) 的场景:
     n 个 LLM agent 在有向拓扑 :math:`A \\in \\{0,1\\}^{n\\times n}` 上协作最多 R 轮;
     每个 episode 产出一组 utterance; 一个 **judge** 对整条交互记录打出二分类标签。

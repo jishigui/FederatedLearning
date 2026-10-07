@@ -1,5 +1,7 @@
 """从 ``results/*.json`` 重新生成结果图 (不需要重新训练)。
 
+阅读顺序: 第 17 步 / 共 18 步 —— 见 READING_ORDER.md
+
 用法::
 
     python scripts/make_figures.py

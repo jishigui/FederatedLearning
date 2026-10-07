@@ -3,6 +3,10 @@
 本包是论文 *Privacy-Preserving Topology-Guided Safety for LLM-Based Multi-Agent
 Systems via Federated Graph Learning* 的一个小型、可运行的复现框架。
 
+**从这里开始读**: 仓库根目录的 ``READING_ORDER.md`` 给出了 18 步阅读路线
+(含论文符号 ↔ 代码变量对照表)。最简单的路径是: ``mas_simulator`` -> ``graph``
+-> ``data`` -> ``model`` -> ``federated`` -> ``runtime``。
+
 模块总览
 --------
 - ``config``        : 全部超参数 (对应论文 5.1 Setup / Protocol)

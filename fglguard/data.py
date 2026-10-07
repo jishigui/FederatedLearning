@@ -1,5 +1,7 @@
 """客户端数据划分与批处理 (论文 Sec. 3 "Federated setting" 与 Sec. 5.1 Protocol)。
 
+阅读顺序: 第 5 步 / 共 18 步 —— 见 READING_ORDER.md
+
 论文设定: :math:`K` 个 operator (client) 各自持有一份**私有的**带标签 episode 图集合
 :math:`D_k = \\{(G, y)\\}`，客户端之间互不共享原始图。客户端分布是 non-IID 的，
 论文用 **label-skew purity** :math:`p` 建模:

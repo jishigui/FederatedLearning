@@ -1,4 +1,7 @@
-"""实验脚手架: 构造仿真世界、训练 off-the-shelf 基线、通用评测。"""
+"""实验脚手架: 构造仿真世界、训练 off-the-shelf 基线、通用评测。
+
+阅读顺序: 第 13 步 / 共 18 步 —— 见 READING_ORDER.md
+"""
 
 from __future__ import annotations
 

@@ -1,5 +1,7 @@
 """过拒答预算下的运行点校准 (论文 Sec. 4.3, Eq. 7)。
 
+阅读顺序: 第 8 步 / 共 18 步 —— 见 READING_ORDER.md
+
 ::
 
     tau* = argmax_{tau in [0,1]} Recall(tau; V)   s.t.  FPR(tau; V) <= rho

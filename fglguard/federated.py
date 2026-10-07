@@ -1,5 +1,8 @@
 """联邦近端训练与域均衡聚合 (论文 Sec. 4.2, Eq. 5-6)。
 
+阅读顺序: 第 7 步 / 共 18 步 —— **全项目的核心**，建议先读其他文件再回到这里。
+详见 READING_ORDER.md
+
 客户端本地目标 (Eq. 5)::
 
     min_theta  L_k(theta) = sum_{(G,y) in D_k} sum_{i in G} BCE(s_i(theta), y_i)

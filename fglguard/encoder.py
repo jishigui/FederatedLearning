@@ -1,5 +1,7 @@
 """冻结句编码器 :math:`\\phi(\\cdot)` 的轻量替代实现。
 
+阅读顺序: 第 2 步 / 共 18 步 —— 见 READING_ORDER.md
+
 论文 (Sec. 3) 使用**冻结的 MiniLM** 把 utterance 映射为 :math:`d` 维向量，并强调:
 
     Exchanging the frozen-encoder embeddings instead would not relax this constraint:

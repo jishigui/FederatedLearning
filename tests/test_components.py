@@ -1,5 +1,8 @@
 """FGLGuard 组件的自包含测试。
 
+阅读顺序: 第 16 步 / 共 18 步 (最快的验收清单，配合 README 2.6 的对照表看)
+—— 见 READING_ORDER.md
+
 不依赖 pytest: 直接 ``python tests/test_components.py`` 即可运行，
 也兼容 ``pytest tests/``。
 """

@@ -1,5 +1,7 @@
 """边特征图注意力风险打分器 (论文 Sec. 4.1, Eq. 2-4)。
 
+阅读顺序: 第 6 步 / 共 18 步 —— 见 READING_ORDER.md
+
 .. math::
 
     e^{(\\ell)}_{ij} &= \\mathrm{LeakyReLU}\\!\\left(a_\\ell^\\top

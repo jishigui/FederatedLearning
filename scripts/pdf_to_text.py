@@ -1,5 +1,7 @@
 """把论文 PDF 抽取成纯文本，便于检索/引用 (需要 ``pypdf``)。
 
+阅读顺序: 第 18 步 / 共 18 步 —— 见 READING_ORDER.md
+
 用法::
 
     python scripts/pdf_to_text.py "paper.pdf" -o paper.txt
